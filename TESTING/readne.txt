@@ -1,0 +1,8 @@
+Para instalar las dependencias; 
+pip3 install -r requirements.txt 
+Para ejecutar las pruebas unitarias: 
+pytest tests/test_gestor_tareas.py
+Para ejecutar las pruebas BDD: 
+pytest tests/test_gestor_tareas_bdd.py 
+Si los log no se muestran, ejecutar los test's de esta manera: 
+pytest --log-cli-level=INFO tests/

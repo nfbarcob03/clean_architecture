@@ -1,0 +1,2 @@
+Estos modelos del dominio buscan centrar toda la logica del negocio en la capa del dominio ya sea por la interaccion entre las 
+clases del dominio o por medio de los trnasactions aislando la logica de los adaptadores y sus conexiones.

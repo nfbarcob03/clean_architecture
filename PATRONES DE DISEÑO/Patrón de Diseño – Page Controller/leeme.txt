@@ -1,0 +1,7 @@
+Una vez que has montado el proyecto, asegrate de instalar flask; 
+pip3 install flask 
+Luego ejecutas con; 
+python app.py 
+Esto levantará un servidor, 
+seguramente, en la siguiente url: 
+http://127.0.0.1:5000/

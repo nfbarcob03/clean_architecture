@@ -1,0 +1,1 @@
+El patron query object permite trabajar con consultas y filtros de manera facil desde la logica de la aplicacion, parecido a un ORM

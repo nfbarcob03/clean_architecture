@@ -1,0 +1,2 @@
+El code smell nos permite identificar esas malas practicas de diseño del software que se solventan con los principios de SOLID y
+con la aplicacion correcta del patron que se ajuste a las necesidades de la implementacion.

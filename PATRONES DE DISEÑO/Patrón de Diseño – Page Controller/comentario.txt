@@ -1,0 +1,2 @@
+Enm el modelo page controler cada llamado a una url es mandejada opor un controlador encargado de obtener la informacion y pasarsela 
+a la capa de presentacion page para que la muestre al consumidr

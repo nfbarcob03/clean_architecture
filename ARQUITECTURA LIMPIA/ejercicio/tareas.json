@@ -1,0 +1,14 @@
+[
+    {
+        "id_tarea": 1,
+        "titulo": "hola",
+        "descripcion": "hola",
+        "completada": true
+    },
+    {
+        "id_tarea": 2,
+        "titulo": "desarrollo arq limpia",
+        "descripcion": "desarollar una app con patron de arq limpia en python",
+        "completada": true
+    }
+]

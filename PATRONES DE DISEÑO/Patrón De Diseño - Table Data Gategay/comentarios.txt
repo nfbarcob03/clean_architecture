@@ -1,0 +1,7 @@
+Con el patron table data gateway vemos como se separa la logica del negocio del adaptador de persistencia
+En este caso no se usa una interfaz que podria dar mayor flexibilidads en cuanto al cambio de driver de persistencia
+sin embargo permite tener una separacvion de resposabilidades bien marcada, donde tenemos las clases del dominio (entidades)
+tenemos la logica de negocio (en el main) y tenemos la logica para la persistencia por aparte (en el gateway) 
+Es de aclarar que tal cual la entidad del negocio es guardada en la persistencia y es la clase producto_gateway la encargada
+de tomar una entidad del dominio y llevarla al adaptador o tomar data del adaptador, trasnformarla en un modelo del dominio 
+y entregarlo a la capa superior

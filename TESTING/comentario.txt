@@ -1,0 +1,3 @@
+Las pruebas unitarias nos permiten validar a nivel de unidad de clases que se ejeucte bien el codigo, es decir, dadas unas entradas obtener una salida
+
+Las pruebas BDD nos permiten validar el comportamiento de la aplicacion de forma mas general, loq ue permite evaluar que la logica de negocio funcione como esperamos

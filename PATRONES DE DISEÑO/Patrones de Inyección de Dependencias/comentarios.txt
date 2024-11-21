@@ -1,0 +1,5 @@
+La inyeccion de dependncias junto con las interfaces nos permiten tener un codigo flexible y facil de mantener
+de esta manera podemos tener diferentes implementaciones de una misma interfaz y tener clases que reciben en sus parametros
+de creacion objeto de la interfaz y lo usan en su flujo interior. Asi, el gestor de notificaciones puede recibir como parametro 
+de creacion cualquier tipo de clase notificacion (email, sms o push) que extienda de la interfaz notificador y utilizarlo con 
+el metodo declarado en la interfaz y que todas las implemenmtaciones deben sobrescribir

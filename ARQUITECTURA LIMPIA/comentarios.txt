@@ -1,0 +1,18 @@
+En la arquitectura limpia vemos como las capas internas como las entidades no saben nada de las capas mas externas como los casos de uso y estos a su vez no saben nada de los controladores (adaptadores)
+
+las dependencias van en un sentido (de adentro hacia afuera, las capas externas dependen de las internas pero las internas nunca de las externas)
+
+Las capas del exterior son las mas suceptibles a cambios y asi cuando cambien las interiores no se ven impactadas
+
+Se tienen:
+ Entidades: tiene las entidades propias del dominio de negocio que son objetos de valor sin llegar a ser modulos compuestos y son estructuras autocontenidas y anemicos (sin comportamientos). Promueven el desacople por medio de gatewasy o puertos del dominio
+ En el caso del ejercico la entidad Tarea
+
+ Casos de uso: tambien son de la capa del dominiio y tienen reglas de negocio especificas, son externas a las entidades por ende sus cambios no las deben afectar. Definen la logica core del la app y orquestan los flujos que utiliza las entidades
+
+ Adaptadores: Estan externas al dominio, por ende sus cambios no deben afectar ni a las entidades ni a los CU
+ se encargan de convertir los datos (moler datos, trasnformar, formatear) para adecuar las entradas a entidades del dominio 
+ o adecuar las salidas de entidades del dominio a entidades de los adaptadores
+ ejemplois: API Rest, rest consumer, jpa adapter (BD), conexion con colas etc
+
+la Arq limpioa se debe iutilizar cuando tenemos difrentes puntos de entrada y salida (adaptadores), queremos un no acoplamiento con tecnologias, logica de negocio sin complejidad accidental

@@ -1,0 +1,2 @@
+El patron de data mapper permite abstraer la logica de persistencia de la entidad del negocio, similar al table data gateway
+pero adicional permite cambiar de formato la misma data, json a una clase concreta.
